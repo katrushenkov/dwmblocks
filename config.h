@@ -4,6 +4,7 @@ static const Block blocks[] = {
 	/* {"⌨", "sb-kbselect", 0, 30}, */
 	{"", "cat /tmp/recordingicon 2>/dev/null",	0,	9},
 	/* {"",	"sb-music",	0,	11},*/
+	{"",	"ksm-date",	18000,	23},
 	{"",	"sb-pacpackages",	0,	8},
 	/* {"",	"sb-news",		0,	6}, */
 	/* {"",	"sb-crypto",	0,	13}, */
@@ -17,7 +18,6 @@ static const Block blocks[] = {
 	/* {"",	"sb-weather",	18000,	5},  */
 	/* {"",	"sb-mailbox",	180,	12}, */
 	/* {"",	"sb-nettraf",	1,	16}, */
-	/* {"",	"sb-microweather",	10,	13}, */
 	//{"",	"sb-teststatus",	0,	14},
 	{"",	"sb-volume",	0,	10},
 	{"",	"sb-lglight",	0,	11},
@@ -31,3 +31,4 @@ static const Block blocks[] = {
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
 static char *delim = " │ ";
+
